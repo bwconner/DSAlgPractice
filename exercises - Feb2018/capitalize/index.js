@@ -7,6 +7,23 @@
 //   capitalize('a lazy fox') --> 'A Lazy Fox'
 //   capitalize('look, it is working!') --> 'Look, It Is Working!'
 
-function capitalize(str) {}
+function capitalize(str) {
+	var capitalized = str.split("");
+
+
+	capitalized[0] = capitalized[0].toUpperCase(); //Alwats capitalize the first letter
+
+	// Starting at the second element check previous characters
+	// If previous character is space, capatilize character at current i
+	for (i = 1; i < capitalized.length; i++) {
+		if (capitalized[i - 1] === " ") {
+			capitalized[i] = capitalized[i].toUpperCase();
+		} else {
+			capitalized[i] = capitalized[i];
+		}
+	}
+
+	return capitalized.join("");
+}
 
 module.exports = capitalize;
