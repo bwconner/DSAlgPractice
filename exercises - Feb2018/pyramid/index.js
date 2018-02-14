@@ -14,6 +14,26 @@
 //       ' ### '
 //       '#####'
 
-function pyramid(n) {}
+function pyramid(n) {
+	var row = 0; //Keeps track of which row we are on.
+	var width = 2 * n - 1; //The max width of a row based on how tall pyramid will be
+	var midpoint = Math.floor((width)/2); //Floor because the array is zero based
+	var output = "";
+
+	while (row < n) {
+
+		for (var column = 0; column < width; column++) {
+			if (midpoint - row <= column && midpoint + row >= column) {
+				output += "#";
+			} else {
+				output += " ";
+			}
+		}
+
+		console.log(output);
+		output = ""; //Reset for next row
+		row++;
+	}
+}
 
 module.exports = pyramid;
