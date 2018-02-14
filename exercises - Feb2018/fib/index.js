@@ -8,6 +8,16 @@
 // Example:
 //   fib(4) === 3
 
-function fib(n) {}
+function fib(n) {
+	var sequence = [0, 1]; //The first two will always be 0 and 1, save some time and just set them
+
+	//Starting at 2 start calculating fib until i = n 
+	//If n < 2, this loop will just be skipped and sequence[n] will just be returned
+	for (var i = 2; i <= n; i++) {
+		sequence[i] = sequence[i - 2] + sequence[i - 1];
+	}
+
+	return(sequence[n]);
+}
 
 module.exports = fib;
