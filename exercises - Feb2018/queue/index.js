@@ -8,6 +8,19 @@
 //     q.add(1);
 //     q.remove(); // returns 1;
 
-class Queue {}
+class Queue {
+
+	constructor() {
+		this.queue = [];
+	}
+
+	add(item) {
+		this.queue.unshift(item); //When items are added use unshift to place items at front of array
+	}
+
+	remove() {
+		return this.queue.pop(); //Pop oldest items off array to keep things being removed in FIFO order
+	}
+}
 
 module.exports = Queue;
