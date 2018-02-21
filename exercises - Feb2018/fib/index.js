@@ -8,6 +8,8 @@
 // Example:
 //   fib(4) === 3
 
+
+//Iterative Solution
 function fib(n) {
 	var sequence = [0, 1]; //The first two will always be 0 and 1, save some time and just set them
 
@@ -19,5 +21,17 @@ function fib(n) {
 
 	return(sequence[n]);
 }
+
+
+//Recursive Solution
+/*
+function fib(n) {
+	if (n < 2) {
+		return n;
+	}
+	
+	return fib(n - 1) + fib(n - 2);
+}
+*/
 
 module.exports = fib;
