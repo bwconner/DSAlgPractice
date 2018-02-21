@@ -10,6 +10,7 @@
 
 
 //Iterative Solution
+/*
 function fib(n) {
 	var sequence = [0, 1]; //The first two will always be 0 and 1, save some time and just set them
 
@@ -21,10 +22,24 @@ function fib(n) {
 
 	return(sequence[n]);
 }
+*/
 
+
+function memoize(fn) {
+	const cache = {};
+	return function(...args) { //we dont know how many arguements a memoized function may eventually need, so we use spread notation
+		if (cache[args]) {
+			return cache[args];
+		}
+		
+		const result = fn.apply(this, args);
+		cache[args] = result;
+
+		return result;
+	};
+}
 
 //Recursive Solution
-/*
 function fib(n) {
 	if (n < 2) {
 		return n;
@@ -32,6 +47,7 @@ function fib(n) {
 	
 	return fib(n - 1) + fib(n - 2);
 }
-*/
+
+fib = memoize(fib);
 
 module.exports = fib;
