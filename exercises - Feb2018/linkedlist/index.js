@@ -36,6 +36,10 @@ class LinkedList {
 	}
 
 	getLast() {
+		if (!this.head) {
+			return null;
+		}
+
 		var currentNode = this.head; //Get reference to first node
 
 		while (currentNode.next) {
@@ -108,6 +112,58 @@ class LinkedList {
 		}
 
 		return null; //If while loop ended and index was outside of bounds return null
+	}
+
+	removeAt(index) {
+		if(!this.size() || index > this.size()) {
+			return; //If this has no node or the index is outside of the list just return immediately
+		}
+
+		if (index <= 0) {
+			this.removeFirst();
+			return;
+		}
+
+		var nodeBefore = this.getAt(index-1); //Find the node before the one to remove
+		var nodeAfter = this.getAt(index+1);	//Find the node after the one to remove
+
+		nodeBefore.next = nodeAfter; //Set the node before's next to be the one after
+	}
+
+	insertAt(data, index) {
+		if (!this.size() || index <= 0) {
+			this.insertFirst(data); //If there are no current nodes, just add this to the start
+			return;
+		}
+
+		if (index > this.size()) {
+			this.insertLast(data); //If the index is outside of the bounds of the list, add it as the last node
+			return;
+		}
+
+		var nodeBefore = this.getAt(index-1); //Find the node before the desired spot to add
+		var nodeAfter = this.getAt(index);	//Find the node currently living at the desired index
+		var newNode = new Node(data);	//Create a new node with data
+
+		nodeBefore.next = newNode; //Set node before it to point at the new node
+		newNode.next = nodeAfter; //Set the new node to point at the node after so it relinks the list
+	}
+
+	forEach(fn) {
+		var currentNode = this.head; //Get reference to first node
+
+		while (currentNode) {
+			fn(currentNode);
+			currentNode = currentNode.next;
+		}
+	}
+
+	*[Symbol.iterator]() {
+		let node = this.head;
+		while (node) {
+			yield node;
+			node = node.next;
+		}
 	}
 }
 
