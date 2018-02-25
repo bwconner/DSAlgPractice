@@ -36,11 +36,29 @@ function selectionSort(arr) {
 }
 
 function mergeSort(arr) {
+	if (arr.length === 1) {
+		return arr;
+	}
 
+	var center = Math.floor(arr.length/2); //Find Mid Point of Array
+	var left = arr.slice(0, center);
+	var right = arr.slice(center, arr.length);
+
+	return merge(mergeSort(left), mergeSort(right)); //Merge all of these recursively called miniture arrays now sorted
 }
 
 function merge(left, right) {
+	var results = [];
 
+	while (left.length && right.length) {
+		if (left[0] < right[0]) {
+			results.push(left.shift()); //Left was less, push its first element onto results
+		} else {
+			results.push(right.shift());  //Right was less, push its first element onto results
+		}
+	}
+
+	return [...results, ...left, ...right];
 }
 
-module.exports = { bubbleSort, selectionSort, mergeSort };
+module.exports = { bubbleSort, selectionSort, mergeSort, merge  };
