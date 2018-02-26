@@ -1,0 +1,983 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inser",
+				"insertLast"
+			],
+			[
+				"inst",
+				"insertFirst"
+			],
+			[
+				"mer",
+				"mergeSort"
+			],
+			[
+				"next",
+				"nextNode"
+			],
+			[
+				"current",
+				"currentNode"
+			],
+			[
+				"start",
+				"startColumn"
+			],
+			[
+				"end",
+				"endColumn"
+			],
+			[
+				"sta",
+				"startColumn"
+			],
+			[
+				"new",
+				"newQueue"
+			],
+			[
+				"con",
+				"constructor"
+			],
+			[
+				"vo",
+				"vowelCount"
+			],
+			[
+				"cap",
+				"capitalized"
+			],
+			[
+				"fizz",
+				"fizz"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"l",
+				"list-group"
+			],
+			[
+				"rendr",
+				"renderPosts"
+			],
+			[
+				"compon",
+				"Component"
+			],
+			[
+				"city",
+				"cityData"
+			],
+			[
+				"Com",
+				"component"
+			],
+			[
+				"user-",
+				"user-description"
+			],
+			[
+				"user",
+				"userID"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"api",
+				"apiUrl"
+			],
+			[
+				"search",
+				"searchCharacter"
+			],
+			[
+				"chra",
+				"characterList"
+			],
+			[
+				"chara",
+				"characterList"
+			],
+			[
+				"option",
+				"optionName"
+			],
+			[
+				"optio",
+				"optionName"
+			],
+			[
+				"expir",
+				"expirationDate"
+			],
+			[
+				"result",
+				"resultData"
+			],
+			[
+				"page",
+				"pageUrl"
+			],
+			[
+				"curr",
+				"currentPage"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"sea",
+				"searchTerm"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"tota",
+				"totalPages"
+			],
+			[
+				"resul",
+				"resultsList"
+			],
+			[
+				"total",
+				"totalResults"
+			],
+			[
+				"resu",
+				"resultLimit"
+			],
+			[
+				"tot",
+				"totalResults"
+			],
+			[
+				"player",
+				"playerTurn"
+			],
+			[
+				"pla",
+				"playerTurn"
+			],
+			[
+				"border",
+				"border-collapse"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"slide",
+				"slidePadding"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"k",
+				"kCode"
+			],
+			[
+				"cu",
+				"current-slide-stack"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"infi",
+				"infitineScroll"
+			],
+			[
+				"sl",
+				"sliderHeight"
+			],
+			[
+				"ta",
+				"table-row"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"ac",
+				"activeCount"
+			],
+			[
+				"acti",
+				"activeSlideNumber"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"poop",
+				"poopPay"
+			],
+			[
+				"cookie",
+				"cookieValue"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"star",
+				"startTime"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"random",
+				"randomSpeed"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "install ",
+		"selected_items":
+		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"rever",
+				"Permute Lines: Reverse"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/midpoint/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/linkedlist/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/sorting/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/sorting/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/linkedlist/directions.html",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/tree/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/levelwidth/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/fib/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/qfroms/stack.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/anagrams/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/qfroms/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/stack/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/weave/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/matrix/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/tree/test.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/weave/queue.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/queue/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/events/example.html",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/events/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/bst/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/validate/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/validate/node.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/vowels/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/pyramid/index.js",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/steps/index.js",
+		"/B/Users/Bruce/Documents/GitHub/fizzbuzz/fizzbuzz.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/matrix/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/vowels/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/fib/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/pyramid/index.js",
+		"/C/Users/Bruce/Desktop/Episodes",
+		"/C/Users/Bruce/Desktop/Missing Episodes",
+		"/C/Users/Bruce/Desktop/chair removal psuedocode",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/vowels/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/capitalize/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/chunk/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/capitalize/test.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/anagrams/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/reversestring/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/palindrome/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/reverseint/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/maxchar/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/fizzbuzz/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/reverseint/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/palindrome/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/exercises/palindrome/test.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/reversestring/index.js",
+		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/reversestring/test.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/reducers/index.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/components/media-page",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/reducers/reducer_pictures.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/reducers/reducer_videos.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/containers/related-videos.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/containers/related-pictures.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/style/style.css",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/components/view-video.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/components/view-picture.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/components/related-list.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/containers/search-bar.js",
+		"/B/Users/Bruce/Documents/GitHub/MemoriesTimeline/src/components/app.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Blog/src/index.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Blog/style/style.css",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/src/components/app.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/src/components/chart.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/src/components/google_map.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/style/style.css",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/src/containers/weather_list.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/src/actions/index.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/src/reducers/reducer_weather.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/src/reducers/index.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/src/containers/search_bar.js",
+		"/B/Users/Bruce/Documents/GitHub/ReactPractice/ReactRedux Practice - Weather App/src/index.js",
+		"/B/Users/Bruce/Documents/GitHub/ReduxSimpleStarter-master/style/style.css",
+		"/B/Users/Bruce/Documents/GitHub/ReduxSimpleStarter-master/src/index.js",
+		"/B/Users/Bruce/Documents/GitHub/ReduxSimpleStarter-master/package.json",
+		"/B/Users/Bruce/Documents/GitHub/ReduxSimpleStarter-master/index.html",
+		"/B/Users/Bruce/Documents/GitHub/ReduxSimpleStarter-master/src/components/app.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/Gruntfile.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scss/comicInfoPage.scss",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/phpscripts/retrievecollectionsql.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/phpscripts/retrievewishlistsql.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/phpscripts/verifyloginsql.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/phpscripts/uniqueusernamesql.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/pages/myaccount.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scripts/search.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scripts/login.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scss/profile.scss",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/node_modules/lodash/collection.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/pages/userprofile.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/pages/home.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/scss/base.scss",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/scss/index.scss",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scss/base.scss",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/phpscripts/addcomictowishlistsql.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scripts/main.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/package.json",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/libs/mustache.min.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/libs/mustache.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scripts/comic.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scripts/viewcomicinfo.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scripts/profile.js",
+		"/C/Users/Bruce/AppData/Local/Temp/Rar$DI16.704/loadTemplate.jquery.json",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/phpscripts/updateaccountsql.php",
+		"/C/Users/Bruce/AppData/Local/Temp/Rar$DI68.000/package.json",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/pages/viewcomicinfo.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scss/search.scss",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/scss/projects.scss",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/snippets/header.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scss/index.scss",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/pages/search.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/pages/createaccount.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/scripts/main.js",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/snippets/nav.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/pages/home.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/pages/projects.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/pages/contact.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/home.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/package-lock.json",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/npx",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/npm",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/npx.cmd",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/npm.cmd",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/pages/media.php",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/.htaccess",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/pages/media.html",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/pages/projects.html",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scss/createAccount.scss",
+		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/scss/media.scss"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getLast",
+			"getFirst",
+			"currentNode",
+			"2",
+			"length",
+			"\t\t\n",
+			"constructor",
+			"result",
+			" !==",
+			"right",
+			"while",
+			"char",
+			"drawChairs",
+			"createChairs",
+			"MediaPage"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "exercisesMarch.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style.",
+				"style\\style.css"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"index.h",
+				"index.html"
+			],
+			[
+				"projects.",
+				"bwconner\\pages\\projects.php"
+			],
+			[
+				"base.scss",
+				"bwconner\\scss\\base.scss"
+			],
+			[
+				"nav",
+				"bwconner\\snippets\\nav.php"
+			],
+			[
+				"header",
+				"bwconner\\snippets\\header.php"
+			],
+			[
+				"gruntf",
+				"Gruntfile.js"
+			],
+			[
+				"search.scss",
+				"comiccollector\\scss\\search.scss"
+			],
+			[
+				"comic.scss",
+				"comiccollector\\scss\\comicInfoPage.scss"
+			],
+			[
+				"sql.php",
+				"comiccollector\\phpscripts\\retrievewishlistsql.php"
+			],
+			[
+				"wishlistsq",
+				"comiccollector\\phpscripts\\retrievewishlistsql.php"
+			],
+			[
+				"retrievecollectionsql",
+				"comiccollector\\phpscripts\\retrievecollectionsql.php"
+			],
+			[
+				"retr",
+				"comiccollector\\phpscripts\\retrievecollectionsql.php"
+			],
+			[
+				"collection",
+				"comiccollector\\scripts\\collection.js"
+			],
+			[
+				"search",
+				"comiccollector\\scripts\\search.js"
+			],
+			[
+				"retri",
+				"comiccollector\\phpscripts\\retrievecollectionsql.php"
+			],
+			[
+				"profile.scss",
+				"comiccollector\\scss\\profile.scss"
+			],
+			[
+				"userpf",
+				"comiccollector\\pages\\userprofile.php"
+			],
+			[
+				"myacco",
+				"comiccollector\\pages\\myaccount.php"
+			],
+			[
+				"home.",
+				"comiccollector\\pages\\home.php"
+			],
+			[
+				"comiccollector/scripts",
+				"comiccollector\\scripts\\login.js"
+			],
+			[
+				"profile.",
+				"comiccollector\\scripts\\profile.js"
+			],
+			[
+				"main.js",
+				"comiccollector\\scripts\\main.js"
+			],
+			[
+				"index.scss",
+				"bwconner\\scss\\index.scss"
+			],
+			[
+				"comicin",
+				"comiccollector\\scss\\comicInfoPage.scss"
+			],
+			[
+				"addcomic",
+				"comiccollector\\phpscripts\\addcomictocollection.php"
+			],
+			[
+				"comic.",
+				"comiccollector\\scripts\\comic.js"
+			],
+			[
+				"viewcomicinfo",
+				"comiccollector\\pages\\viewcomicinfo.php"
+			],
+			[
+				"comic.js",
+				"comiccollector\\scripts\\comic.js"
+			],
+			[
+				"musta",
+				"comiccollector\\libs\\mustache.js"
+			],
+			[
+				"mustache.",
+				"comiccollector\\libs\\mustache.js"
+			],
+			[
+				"search.js",
+				"comiccollector\\scripts\\search.js"
+			],
+			[
+				"searc",
+				"comiccollector\\pages\\search.php"
+			],
+			[
+				"sql",
+				"comiccollector\\phpscripts\\updateaccountsql.php"
+			],
+			[
+				"myacc",
+				"comiccollector\\pages\\myaccount.php"
+			],
+			[
+				"profile.js",
+				"comiccollector\\scripts\\profile.js"
+			],
+			[
+				"viewcomi",
+				"comiccollector\\scripts\\viewcomicinfo.js"
+			],
+			[
+				"main.",
+				"comiccollector\\scripts\\main.js"
+			],
+			[
+				"header.",
+				"comiccollector\\snippets\\header.html"
+			],
+			[
+				"header.php",
+				"bwconner\\snippets\\header.php"
+			],
+			[
+				".scss",
+				"bwconner\\scss\\projects.scss"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"nav.php",
+				"bwconner\\snippets\\nav.php"
+			],
+			[
+				"home.php",
+				"bwconner\\pages\\home.php"
+			],
+			[
+				"nav.ph",
+				"bwconner\\snippets\\nav.php"
+			],
+			[
+				"contact",
+				"bwconner\\pages\\contact.php"
+			],
+			[
+				"projects.php",
+				"bwconner\\pages\\projects.php"
+			],
+			[
+				"media.htm",
+				"bwconner\\pages\\media.html"
+			],
+			[
+				"contact.",
+				"bwconner\\pages\\contact.html"
+			],
+			[
+				"projects.scss",
+				"bwconner\\scss\\projects.scss"
+			],
+			[
+				"media.html",
+				"bwconner\\pages\\media.html"
+			],
+			[
+				"project.html",
+				"bwconner\\pages\\projects.html"
+			],
+			[
+				"projects.htm",
+				"bwconner\\pages\\projects.html"
+			],
+			[
+				"index",
+				"bwconner\\scss\\index.scss"
+			],
+			[
+				"createaccount.php",
+				"comiccollector\\phpscripts\\createaccountsql.php"
+			],
+			[
+				"acount.php",
+				"comiccollector\\phpscripts\\updateaccountsql.php"
+			],
+			[
+				"comic.php",
+				"comiccollector\\pages\\viewcomicinfo.php"
+			],
+			[
+				"search.php",
+				"comiccollector\\pages\\search.php"
+			],
+			[
+				"myaccoun",
+				"comiccollector\\pages\\myaccount.php"
+			],
+			[
+				"creat",
+				"comiccollector\\pages\\createaccount.php"
+			],
+			[
+				"login.js",
+				"comiccollector\\scripts\\login.js"
+			],
+			[
+				"comiccollector.scss",
+				"comiccollector\\scss\\index.scss"
+			],
+			[
+				"profile.css",
+				"comiccollector\\css\\profile.css"
+			],
+			[
+				"account.p",
+				"comiccollector\\pages\\myaccount.php"
+			],
+			[
+				"loginform",
+				"comiccollector\\snippets\\loginform.html"
+			],
+			[
+				"login.html",
+				"comiccollector\\snippets\\loginform.html"
+			],
+			[
+				"loginsql.php",
+				"comiccollector\\phpscripts\\loginsql.php"
+			],
+			[
+				"login",
+				"comiccollector\\snippets\\loginform.html"
+			],
+			[
+				"bwslider",
+				"bwconner\\libs\\bwslider\\bwslider.js"
+			],
+			[
+				"bwslider.js",
+				"bwconner\\scripts\\bwslider.js"
+			],
+			[
+				"smoothdivscrolloverrides",
+				"bwconner\\css\\smoothDivScrollOverrides.css"
+			],
+			[
+				"media.scss",
+				"bwconner\\scss\\media.scss"
+			],
+			[
+				"media",
+				"bwconner\\pages\\media.html"
+			],
+			[
+				"contact.html",
+				"bwconner\\pages\\contact.html"
+			],
+			[
+				"createaccount",
+				"comiccollector\\css\\createAccount.css"
+			],
+			[
+				"account.scss",
+				"comiccollector\\scss\\createAccount.scss"
+			],
+			[
+				"comiccollect/.js",
+				"comiccollector\\scripts\\profile.js"
+			],
+			[
+				"base.css",
+				"comiccollector\\css\\base.css"
+			],
+			[
+				"search.css",
+				"comiccollector\\css\\search.css"
+			],
+			[
+				"api.js",
+				"comiccollector\\scripts\\apiUrlBuilderService.js"
+			],
+			[
+				"scripts/js",
+				"comiccollector\\scripts\\viewcomicinfo.js"
+			],
+			[
+				"scripts/.js",
+				"comiccollector\\scripts\\search.js"
+			],
+			[
+				"global",
+				"comiccollector\\snippets\\global.html"
+			],
+			[
+				"createaccount.css",
+				"comiccollector\\css\\createAccount.css"
+			],
+			[
+				"gruntfi",
+				"Gruntfile.js"
+			],
+			[
+				"testpst",
+				"comiccollector\\snippets\\testpost.php"
+			],
+			[
+				"header.h",
+				"comiccollector\\snippets\\header.html"
+			],
+			[
+				"hom",
+				"comiccollector\\pages\\home.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
