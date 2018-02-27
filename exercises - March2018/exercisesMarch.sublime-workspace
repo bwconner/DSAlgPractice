@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"vowel",
+				"vowelCount"
+			],
+			[
+				"re",
+				"reversedInt"
+			],
+			[
+				"rev",
+				"reversedString"
+			],
+			[
+				"o",
+				"output"
+			],
+			[
 				"inser",
 				"insertLast"
 			],
@@ -280,10 +296,93 @@
 	"buffers":
 	[
 		{
+			"file": "fizzbuzz/index.js",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
+				"buffer_size": 623,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fib/index.js",
+			"settings":
+			{
+				"buffer_size": 478,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "palindrome/index.js",
+			"settings":
+			{
+				"buffer_size": 762,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "anagrams/index.js",
+			"settings":
+			{
+				"buffer_size": 700,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "steps/index.js",
+			"settings":
+			{
+				"buffer_size": 676,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "reversestring/index.js",
+			"settings":
+			{
+				"buffer_size": 577,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "reverseint/index.js",
+			"settings":
+			{
+				"buffer_size": 442,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "capitalize/index.js",
+			"settings":
+			{
+				"buffer_size": 675,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vowels/index.js",
+			"settings":
+			{
+				"buffer_size": 520,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pyramid/index.js",
+			"settings":
+			{
+				"buffer_size": 764,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -330,8 +429,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - March2018",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - March2018/pyramid",
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - March2018/vowels"
+	],
 	"file_history":
 	[
+		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - March2018/capitalize/index.js",
 		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/midpoint/index.js",
 		"/B/Users/Bruce/Documents/GitHub/Data Structures and Algorithms/completed_exercises/linkedlist/index.js",
 		"/B/Users/Bruce/Documents/GitHub/DSAlgPractice/exercises - Feb2018/sorting/index.js",
@@ -458,8 +564,7 @@
 		"/B/Users/Bruce/Documents/GitHub/bwconner/.htaccess",
 		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/pages/media.html",
 		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/pages/projects.html",
-		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scss/createAccount.scss",
-		"/B/Users/Bruce/Documents/GitHub/bwconner/bwconner/scss/media.scss"
+		"/B/Users/Bruce/Documents/GitHub/bwconner/comiccollector/scss/createAccount.scss"
 	],
 	"find":
 	{
@@ -477,6 +582,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'#';",
+			") ",
+			"j",
+			">= ",
 			"getLast",
 			"getFirst",
 			"currentNode",
@@ -509,31 +618,284 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "fizzbuzz/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 623,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								595,
+								595
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fib/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "palindrome/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "anagrams/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "steps/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								645,
+								645
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "reversestring/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								550,
+								550
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "reverseint/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "capitalize/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								675,
+								675
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "vowels/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "pyramid/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								764,
+								764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 200.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
